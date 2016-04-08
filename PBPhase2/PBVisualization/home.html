@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Visualization of Tweets</title>
+    <script>
+        function query1(){
+            document.getElementById('frame').src='donut(query1).html';
+        }
+
+        function query2(){
+            document.getElementById('frame').src='pyramid(query2).html';
+        }
+        function query3(){
+            document.getElementById('frame').src='combinationchart(query3).html';
+        }
+        function query4(){
+            document.getElementById('frame').src='semicircle(query4).html';
+        }
+        function query5(){
+            document.getElementById('frame').src='barchart(query5).html';
+        }
+        function query6(){
+            document.getElementById('frame').src='bubblechart(query6).html';
+        }
+        function query7(){
+            document.getElementById('frame').src='piechart(query7).html';
+        }
+        function query8(){
+            document.getElementById('frame').src='worldmap(query8).html';
+        }
+    </script>
+</head>
+<body>
+<h2>Visualization of Tweets</h2>
+<!--<div style="top:100px; left:45px;">-->
+<button onclick="query1()" style="width:100px;">query1</button>
+<button onclick="query2()" style="width:100px;">query2</button>
+<button onclick="query3()" style="width:100px;">query3</button>
+<button onclick="query4()" style="width:100px;">query4</button>
+<button onclick="query5()" style="width:100px;">query5</button>
+<button onclick="query6()" style="width:100px;">query6</button>
+<button onclick="query7()" style="width:100px;">query7</button>
+<button onclick="query8()" style="width:100px;">query8</button>
+<br><br>
+
+
+<div style="left:30px;">
+<iframe id='frame' src='' style="height: 700px; width:1000px;"></iframe></div>
+
+</body>
+</html>
